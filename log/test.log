@@ -1,0 +1,129 @@
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:40:06 +0100
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:42:01 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 425)
+Building with Vite ⚡️
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 6278)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 11346)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:45:14 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 281)
+Building with Vite ⚡️
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3949)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 6601)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:45:48 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 281)
+Building with Vite ⚡️
+vite v5.4.4 building for test...
+
+transforming...
+
+✓ 1 modules transformed.
+
+x Build failed in 38ms
+error during build:
+[vite]: Rollup failed to resolve import "Main" from "/home/stephen/github/minesweeper/app/javascript/entrypoints/application.js".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at viteWarn (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65525:17)
+    at onRollupWarning (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65557:5)
+    at onwarn (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65220:7)
+    at file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:18669:13
+    at Object.logger [as onLog] (file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:20307:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:19258:26)
+    at file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:19216:26
+
+pid 531758 exit 1
+Build with Vite failed! ❌
+  Rendered layout layouts/application.html.erb (Duration: 1062.4ms | Allocations: 4532)
+Completed 500 Internal Server Error in 1073ms (ActiveRecord: 0.0ms | Allocations: 7178)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:49:44 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 281)
+Building with Vite ⚡️
+vite v5.4.4 building for test...
+
+transforming...
+
+✓ 1 modules transformed.
+
+rendering chunks...
+
+computing gzip size...
+
+../../public/vite-test/.vite/manifest-assets.json      0.00 kB │ gzip: 0.02 kB
+
+../../public/vite-test/.vite/manifest.json             0.19 kB │ gzip: 0.12 kB
+
+../../public/vite-test/assets/application-DBfCPIOZ.js  0.13 kB │ gzip: 0.13 kB
+
+✓ built in 57ms
+
+Build with Vite complete: /home/stephen/github/minesweeper/public/vite-test
+  Rendered layout layouts/application.html.erb (Duration: 1036.5ms | Allocations: 4348)
+Completed 200 OK in 1043ms (Views: 1039.5ms | ActiveRecord: 0.0ms | Allocations: 7056)
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2024-09-12 21:49:45 +0100
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2024-09-12 21:50:40 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 281)
+Building with Vite ⚡️
+vite v5.4.4 building for test...
+
+transforming...
+
+✓ 1 modules transformed.
+
+x Build failed in 35ms
+error during build:
+[vite]: Rollup failed to resolve import "Main" from "/home/stephen/github/minesweeper/app/javascript/entrypoints/application.js".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at viteWarn (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65525:17)
+    at onRollupWarning (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65557:5)
+    at onwarn (file:///home/stephen/github/minesweeper/node_modules/vite/dist/node/chunks/dep-BEhTnQAI.js:65220:7)
+    at file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:18669:13
+    at Object.logger [as onLog] (file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:20307:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:19258:26)
+    at file:///home/stephen/github/minesweeper/node_modules/rollup/dist/es/shared/node-entry.js:19216:26
+
+pid 533601 exit 1
+Build with Vite failed! ❌
+  Rendered layout layouts/application.html.erb (Duration: 1015.7ms | Allocations: 4222)
+Completed 500 Internal Server Error in 1025ms (ActiveRecord: 0.0ms | Allocations: 6868)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
