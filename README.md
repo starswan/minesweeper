@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project was started with:
+rails new minesweeper -d mysql --webpack=elm --skip-turbolinks --skip-spring --skip-sprockets \
+--skip-keeps --skip-git --skip-puma --skip-action-text --skip-test --skip-system-test \
+--skip-action-mailbox --skip-hotwire --skip-jbuilder --skip-action-cable --skip-active-storage
 
-Things you may want to cover:
+Inspired by:
 
-* Ruby version
+https://radanskoric.com/experiments/minesweeper-100-lines-of-clean-ruby
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+can we do the same (but better) in Elm?
