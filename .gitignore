@@ -6,6 +6,9 @@
 /.idea/vcs.xml
 /minesweeper.iml
 
+# Ignore all logfiles and tempfiles.
+log
+
 # Vite Ruby
 /public/vite*
 node_modules
@@ -13,3 +16,4 @@ node_modules
 # https://vitejs.dev/guide/env-and-mode.html#env-files
 *.local
 
+/elm-stuff
