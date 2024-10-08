@@ -4,7 +4,7 @@
   "main": "application.js",
   "devDependencies": {
     "elm": "0.19.1-6",
-    "vite": "^5.4.4",
+    "vite": "^5.4.8",
     "vite-plugin-elm-watch": "1.3.5",
     "vite-plugin-ruby": "^5.1.0"
   }
